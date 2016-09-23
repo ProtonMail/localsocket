@@ -3,7 +3,7 @@ package localsocket
 import (
 	"errors"
 	"fmt"
-	"gopkg.in/natefinch/npipe.v2"
+	"net"
 	"sync"
 )
 
