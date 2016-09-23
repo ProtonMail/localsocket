@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"net"
 	"sync"
+
+	npipe "gopkg.in/natefinch/npipe.v2"
 )
 
 var StoppedError = errors.New("Listener stopped")
